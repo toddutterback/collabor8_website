@@ -1,24 +1,75 @@
 body {
-  background-color: #fbc547;
+  background-color: #fff;
   color: #333;
   font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir",
     "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans",
     "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu",
     "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
-  padding: 18vh 1rem;
-  text-align: center;
-}
+  padding: 1em;
 
-a {
-  color: rgba(#000, 0.7);
-
-  &:focus,
-  &:hover {
-    color: rgba(#000, 0.6);
+  .hero {
+    background-image: image-url('elev8-your-reach.jpg');
+    background-size: 100%;
+    height: 400px;
+    padding: 3em;
+    text-align: center;
   }
-}
 
-.middleman-logo {
-  margin-bottom: 1rem;
-  width: 10rem;
+  .video-copy-section{
+    height: 400px;
+    width: 100%;
+    .video{
+      float: left;
+      height: 100%;
+      width: 50%;
+      iframe {
+        height: 100%;
+        width: 100%;
+      }
+    }
+    .copy{
+      float: right;
+      height: 100%;
+      text-align: center;
+      width: 50%;
+    }
+  }
+
+  .brand-influencer-buttons {
+    padding: 3em 0em;
+    text-align: center;
+    button {
+      display: inline-block;
+      margin: 0 10px 0 0;
+      padding: 15px 45px;
+      font-size: 48px;
+      font-family: "Bitter",serif;
+      line-height: 1.8;
+      appearance: none;
+      box-shadow: none;
+      border-radius: 0;
+      color: #fff;
+      // text-shadow: -2px 2px #346392;
+      background-color: #139dff;
+      background-image: linear-gradient(top, #6496c8, #346392);
+      box-shadow: inset 0 0 0 1px #27496d;
+      border: none;
+      border-radius: 15px;
+    }
+    button:focus {
+      outline: none
+    }
+    button:hover {
+      box-shadow: inset 0 0 0 1px #27496d,0 5px 15px #193047;
+    }
+    button:active {
+      box-shadow: inset 0 0 0 1px #27496d,inset 0 5px 30px #193047;
+    }
+    .brand-button {
+      display: inline-block;
+    }
+    .influencer-button {
+      display: inline-block;
+    }
+  }
 }
