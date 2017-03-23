@@ -1,5 +1,4 @@
 body {
-  background-color: #fff;
   color: #333;
   font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir",
     "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans",
@@ -8,7 +7,8 @@ body {
   padding: 1em;
 
   .hero {
-    background-image: image-url('elev8-your-reach.jpg');
+    // background-image: image-url('elev8-your-reach.jpg');
+    background-color: #aaa;
     background-size: 100%;
     height: 400px;
     padding: 3em;
@@ -32,6 +32,12 @@ body {
       height: 100%;
       text-align: center;
       width: 50%;
+      img {
+        padding-top: 2em;
+      }
+      p {
+        padding: 0em 2em;
+      }
     }
   }
 
@@ -72,4 +78,10 @@ body {
       display: inline-block;
     }
   }
+  footer {
+    background-color: #aaaa;
+    float: right;
+    height: 100px;
+  }
+
 }
