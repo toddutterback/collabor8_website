@@ -78,6 +78,44 @@ body {
       display: inline-block;
     }
   }
+  
+  .brand-path{
+    .why-collabor8 {
+      background-color: white;
+      height: 500px;
+      width: 100%;
+      .copy {
+        display: inline-block;
+        width: 50%;
+        h2 {
+          text-align: center;
+        }
+      }
+      .image {
+        display: inline-block;
+        float: right;
+        width: 40%;
+        img {
+          height: 500px;
+        }
+      }
+    }
+    .brand-success-stories {
+      height: 500px;
+      text-align: center;
+      width: 100%;
+    }
+
+    .gold {
+      height: auto;
+      width: 100%;
+      img {
+        display: inline-block;
+        width: 30%;
+      }
+    }
+  }
+
   footer {
     background-color: #aaaa;
     float: right;
