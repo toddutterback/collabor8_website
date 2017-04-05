@@ -4,8 +4,8 @@ body {
     "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans",
     "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu",
     "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
-  padding: 1em;
 
+//Top Section of the Index Page
   .hero {
     // background-image: image-url('elev8-your-reach.jpg');
     background-color: #aaa;
@@ -41,6 +41,7 @@ body {
     }
   }
 
+//Toggle buttons to switch back and forth between the Brand and Influencer paths
   .brand-influencer-buttons {
     padding: 3em 0em;
     text-align: center;
@@ -79,6 +80,7 @@ body {
     }
   }
   
+//Brand Path
   .brand-path{
     .why-collabor8 {
       background-color: white;
@@ -118,10 +120,37 @@ body {
     }
   }
 
+//Influencer Path
+  .influencer-path {
+
+
+
+  }
+
+//Common brand elements at the bottom of the Index Page
+  .collabor8-news {
+    height: 300px;
+    padding-top: 5em;
+    text-align: center;
+    img {
+      width: 25%;
+    }
+  }
+
+//Footer Styles
   footer {
-    background-color: #aaaa;
-    float: right;
-    height: 100px;
+    background-color: rgb(230, 230, 230);
+    font-size: small;
+    height: 200px;
+    text-align: center;
+    width: 100%;
+    .row {
+      padding-top: 3em;
+    }
+    a {
+      padding: 0em 1em;
+      text-decoration: none;
+    }
   }
 
 }

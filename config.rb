@@ -1,3 +1,4 @@
+
 ###
 # Page options, layouts, aliases and proxies
 ###
@@ -8,6 +9,8 @@
 page '/*.xml', layout: false
 page '/*.json', layout: false
 page '/*.txt', layout: false
+
+page '/privacy-policy', :layout => "privacy-policy"
 
 # With alternative layout
 # page "/path/to/file.html", layout: :otherlayout
