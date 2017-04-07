@@ -4,6 +4,15 @@ body {
     "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans",
     "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu",
     "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
+  line-height: 1.6;
+  margin: 0px;
+  h1 h2 h3 h4 h5 h6 {
+    color: rgb(60, 185, 240);
+  }
+  
+
+//primary Collabor8 color: rgb(60,185,240)
+//secondary Collabor8 color: rgb(230, 230, 230)
 
 //Top Section of the Index Page
   .hero {
@@ -16,7 +25,7 @@ body {
   }
 
   .video-copy-section{
-    height: 400px;
+    height: 500px;
     width: 100%;
     .video{
       float: left;
@@ -49,7 +58,8 @@ body {
       display: inline-block;
       margin: 0 10px 0 0;
       padding: 15px 45px;
-      font-size: 48px;
+      font-size: 4
+      ;
       font-family: "Bitter",serif;
       line-height: 1.8;
       appearance: none;
@@ -57,7 +67,7 @@ body {
       border-radius: 0;
       color: #fff;
       // text-shadow: -2px 2px #346392;
-      background-color: #139dff;
+      background-color: rgb(60, 185, 240);
       background-image: linear-gradient(top, #6496c8, #346392);
       box-shadow: inset 0 0 0 1px #27496d;
       border: none;
@@ -83,14 +93,16 @@ body {
 //Brand Path
   .brand-path{
     .why-collabor8 {
-      background-color: white;
-      height: 500px;
+      background-color: rgb(60, 185, 240);
+      color: white;
+      height: 800px;
       width: 100%;
       .copy {
         display: inline-block;
         padding: 6em 1em;
         width: 50%;
         h2 {
+          color: white;
           text-align: center;
         }
       }
@@ -107,11 +119,17 @@ body {
       height: 500px;
       text-align: center;
       width: 100%;
+      h2 {
+        color: rgb(60, 185, 240);
+      }
     }
 
     .gold {
       height: auto;
       width: 100%;
+      h2 {
+        color: rgb(60, 185, 240);
+      }
       img {
         display: inline-block;
         padding: 1%;
@@ -132,6 +150,9 @@ body {
     height: 300px;
     padding-top: 5em;
     text-align: center;
+    h2 {
+      color: rgb(60, 185, 240);
+    }
     img {
       width: 25%;
     }
