@@ -6,8 +6,9 @@ body {
     "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
   line-height: 1.6;
   margin: 0px;
-  h1 h2 h3 h4 h5 h6 {
+  h1, h2, h3, h4 {
     color: rgb(60, 185, 240);
+    text-transform: uppercase;
   }
   
 
@@ -25,27 +26,21 @@ body {
   }
 
   .video-copy-section{
-    height: 500px;
-    width: 100%;
+    padding: 4em;
+    text-align: center;
     .video{
-      float: left;
-      height: 100%;
-      width: 50%;
       iframe {
-        height: 100%;
-        width: 100%;
+        height: 360px;
+        width: 720px;
       }
     }
     .copy{
-      float: right;
-      height: 100%;
-      text-align: center;
-      width: 50%;
+      padding: 0 4em;
       img {
         padding-top: 2em;
       }
       p {
-        padding: 0em 2em;
+        padding: 0 13%;
       }
     }
   }
@@ -58,8 +53,7 @@ body {
       display: inline-block;
       margin: 0 10px 0 0;
       padding: 15px 45px;
-      font-size: 4
-      ;
+      font-size: 16px;
       font-family: "Bitter",serif;
       line-height: 1.8;
       appearance: none;
@@ -95,12 +89,13 @@ body {
     .why-collabor8 {
       background-color: rgb(60, 185, 240);
       color: white;
-      height: 800px;
+      height: 500px;
+      padding: 3em 0;
       width: 100%;
       .copy {
         display: inline-block;
-        padding: 6em 1em;
-        width: 50%;
+        padding: 6em 5em;
+        width: 45%;
         h2 {
           color: white;
           text-align: center;
@@ -116,24 +111,44 @@ body {
       }
     }
     .brand-success-stories {
-      height: 500px;
+      padding: 6em;
       text-align: center;
-      width: 100%;
       h2 {
         color: rgb(60, 185, 240);
+        text-transform: uppercase;
+      }
+      p {
+        margin-bottom: 3em;
       }
     }
 
     .gold {
+      background-color: #F5F5F5;
       height: auto;
-      width: 100%;
-      h2 {
-        color: rgb(60, 185, 240);
+      padding: 4em;
+      display: inline-block;
+      .text{
+        img {
+          width: 20%;
+        }
       }
-      img {
+      .image {
+        img {
+          display: inline-block;
+          padding: 1%;
+          width: 95%;
+        }
+        
+      }
+      .left {
         display: inline-block;
-        padding: 1%;
-        width: 30%;
+        width: 45%
+
+      }
+      .right {
+        display: inline-block;
+        float: right;
+        width: 50%;
       }
     }
   }
