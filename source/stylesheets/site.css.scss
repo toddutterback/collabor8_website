@@ -17,14 +17,15 @@ body {
 
 //Top Section of the Index Page
   .hero {
+    display: none;
+
     background-image: image-url('Collabor8-header2.jpg');
     background-size: cover;
-    height: 100vh;
+    height: 500px;
     left: 0;
     right: 0;
     position: absolute;
     text-align: center;
-    z-index: 1;
 
     filter: blur(4px);
     -webkit-filter: blur(4px);
@@ -34,13 +35,13 @@ body {
   }
     
   .video-copy-section{
-    height: 100vh;
+    display: none;
+    height: 500px;
     left: 0;
     padding: 4em;
     position: absolute;
     right: 0;
     text-align: center;
-    z-index: 2;
     .video{
       iframe {
         height: 360px;
@@ -64,7 +65,6 @@ body {
   .brand-influencer-buttons {
     padding: 3em 0em;
     text-align: center;
-    z-index: 2;
     button {
       display: inline-block;
       margin: 0 10px 0 0;
@@ -102,7 +102,6 @@ body {
   
 //Brand Path
   .brand-path{
-    z-index: 2;
     .why-collabor8 {
       background-color: rgb(60, 185, 240);
       color: white;
@@ -172,6 +171,7 @@ body {
 
 //Influencer Path
   .influencer-path {
+    display: none;
 
 
 
