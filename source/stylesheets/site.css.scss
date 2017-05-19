@@ -141,35 +141,38 @@ body {
     .gold {
       background-color: #F5F5F5;
       height: auto;
-      padding: 4em;
+      padding: 0 10%;
       display: inline-block;
+      width: 80%;
       .row {
-        vertical-align: middle;
-      }
-      .text{
-        width: 30%;
-        img {
-          width: 33%;
-        }
+        display: table;
+        .text{
+          display: table-cell;
+          vertical-align: middle;
+          width: 30%;
+          img {
+            width: 33%;
+          }
 
-      }
-      .image {
-        width: 45%;
-        img {
+        }
+        .image {
+          width: 45%;
+          img {
+            display: inline-block;
+            max-height: 100%;
+            padding: 1%;
+            max-width: 95%;
+          }
+          
+        }
+        .left {
           display: inline-block;
-          max-height: 100%;
-          padding: 1%;
-          max-width: 95%;
-        }
-        
-      }
-      .left {
-        display: inline-block;
-        width: 45%
+          width: 45%
 
-      }
-      .right {
-        display: inline-block;
+        }
+        .right {
+          display: inline-block;
+        }
       }
     }
   }
