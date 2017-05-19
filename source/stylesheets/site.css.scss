@@ -17,29 +17,24 @@ body {
 
 //Top Section of the Index Page
   .hero {
-    display: none;
-
     background-image: image-url('Collabor8-header2.jpg');
     background-size: cover;
-    height: 500px;
+    height: 100vh;
     left: 0;
     right: 0;
-    position: absolute;
     text-align: center;
 
-    filter: blur(4px);
-    -webkit-filter: blur(4px);
-    -moz-filter: blur(4px);
-    -o-filter: blur(4px);
-    -ms-filter: blur(4px);
+    // filter: blur(4px);
+    // -webkit-filter: blur(4px);
+    // -moz-filter: blur(4px);
+    // -o-filter: blur(4px);
+    // -ms-filter: blur(4px);
   }
     
   .video-copy-section{
-    display: none;
     height: 500px;
     left: 0;
     padding: 4em;
-    position: absolute;
     right: 0;
     text-align: center;
     .video{
@@ -145,11 +140,11 @@ body {
       display: inline-block;
       width: 80%;
       .row {
-        display: table;
+        clear: both;
+        text-align: center;
         .text{
-          display: table-cell;
           vertical-align: middle;
-          width: 30%;
+          width: 40%;
           img {
             width: 33%;
           }
@@ -159,6 +154,7 @@ body {
           width: 45%;
           img {
             display: inline-block;
+            height: 400px;
             max-height: 100%;
             padding: 1%;
             max-width: 95%;
@@ -167,12 +163,21 @@ body {
         }
         .left {
           display: inline-block;
+          float: left;
           width: 45%
 
         }
         .right {
           display: inline-block;
+          float: right;
         }
+      }
+    }
+    .brand-testimonials {
+      text-align: center;
+      img {
+        height: 200px;
+
       }
     }
   }
@@ -181,7 +186,10 @@ body {
   .influencer-path {
     display: none;
     .influencer-testimonials {
-      height: 500px;
+      text-align: center;
+      img {
+        height: 200px;  
+      }
       .ashley-wilson {
 
       }

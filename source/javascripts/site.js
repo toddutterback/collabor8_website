@@ -13,11 +13,3 @@ $('.influencer-button').click(function(){
   $(".brand-path").hide();
   $(".influencer-path").show();
 });
-
-
-function swap(self) {
-  debugger
-  $(self).prop('disabled', true);
-  $(".brand-path").toggle();
-  $(".influencer-path").toggle();
-};
